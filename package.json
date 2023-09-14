@@ -1,6 +1,6 @@
 {
   "homepage": "http://vasu962.github.io/keeper-app",
-  "name": "keeper-app",
+  "name": "keeper-app-part-1-starting",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -25,7 +25,7 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
